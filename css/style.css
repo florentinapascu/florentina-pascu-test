@@ -206,6 +206,18 @@ body{
 
 }
 
+.features .cards{
+
+    grid-template-columns:repeat(4,1fr);
+
+}
+
+.features .cards > .card:not(.training-card){
+
+    grid-column:span 2;
+
+}
+
 .card{
 
     background:#151515;
@@ -256,10 +268,8 @@ body{
 
 .training-card{
 
-    grid-column:1 / -1;
+    grid-column:2 / span 2;
     width:100%;
-    max-width:calc((100% - 35px) / 2);
-    justify-self:center;
     margin:0;
     padding:38px;
 
@@ -487,6 +497,12 @@ footer{
 .cards{
 
     grid-template-columns:1fr;
+
+}
+
+.features .cards > .card:not(.training-card){
+
+    grid-column:auto;
 
 }
 
