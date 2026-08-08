@@ -500,6 +500,12 @@ footer{
 
 }
 
+.features .cards{
+
+    grid-template-columns:1fr;
+
+}
+
 .features .cards > .card:not(.training-card){
 
     grid-column:auto;
