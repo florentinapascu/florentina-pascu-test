@@ -540,7 +540,6 @@ footer{
     object-fit:cover;
     object-position:center 40%;
     border-radius:50%;
-    border:1px solid var(--gold);
 }
 
 .logo small{
