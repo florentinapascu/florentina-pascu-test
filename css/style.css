@@ -254,6 +254,15 @@ body{
 
 }
 
+.training-card{
+
+    grid-column:1 / -1;
+    width:100%;
+    max-width:calc((100% - 35px) / 2);
+    margin:0 auto;
+
+}
+
 /* ==========================================
             SECTIUNI GOALE
 ========================================== */
@@ -435,6 +444,13 @@ footer{
 .cards{
 
     grid-template-columns:1fr;
+
+}
+
+.training-card{
+
+    grid-column:auto;
+    max-width:none;
 
 }
 
