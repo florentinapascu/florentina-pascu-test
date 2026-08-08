@@ -259,7 +259,50 @@ body{
     grid-column:1 / -1;
     width:100%;
     max-width:calc((100% - 35px) / 2);
-    margin:0 auto;
+    justify-self:center;
+    margin:0;
+    padding:38px;
+
+}
+
+.training-card .icon{
+
+    font-size:34px;
+    margin-bottom:16px;
+
+}
+
+.training-card h3{
+
+    font-size:34px;
+    margin-bottom:14px;
+
+}
+
+.training-list{
+
+    display:grid;
+    gap:8px;
+    list-style:none;
+
+}
+
+.training-list li{
+
+    position:relative;
+    padding-left:16px;
+    color:var(--text);
+    font-size:15px;
+    line-height:1.5;
+
+}
+
+.training-list li::before{
+
+    content:'•';
+    position:absolute;
+    left:0;
+    color:var(--gold);
 
 }
 
@@ -451,6 +494,7 @@ footer{
 
     grid-column:auto;
     max-width:none;
+    padding:32px;
 
 }
 
